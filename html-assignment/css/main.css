@@ -19,7 +19,7 @@ header, footer {
     box-shadow: 0px 0px 2px 1px;
 }
 
-/* changed bullet points of unordered list to square */
+/* changed bullet points of unordered list to squares */
 ul.bullets {
     list-style-type: square;
 }

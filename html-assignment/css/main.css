@@ -1,0 +1,50 @@
+/* changing body text font and size*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+/* Changing header and footer background color*/
+header, footer {
+    background-color: rgb(210, 235, 232);
+}
+
+/* changing site-tile class font to red */
+.site-title {
+    color: rgb(255, 0, 21);
+}
+
+/* id my-image to have box shadow */
+#my-image {
+    box-shadow: 0px 0px 2px 1px;
+}
+
+/* changed bullet points of unordered list to square */
+ul.bullets {
+    list-style-type: square;
+}
+
+/* changing every other point in hobbies list to a background color */
+.hobby-list li:nth-child(odd) {
+    background: rgb(234, 191, 232);
+}
+
+/* removing bullets of the list in nav bar */
+nav ul li {
+    list-style-type: none;
+}
+
+/* changing atributes of link and removing underline*/
+a {
+    background-color: #c699df;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Changing background of hover and active link */
+a:hover, a:active {
+    background-color: #8cc58a;
+}

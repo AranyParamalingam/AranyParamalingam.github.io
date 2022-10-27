@@ -1,0 +1,7 @@
+/*The image border on top*/
+.topimage {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: url(.../images/lone-starfish-wide.jpg);
+}

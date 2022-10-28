@@ -20,6 +20,27 @@ body {
     background-color:  rgb(220, 254, 248);
 }
 
+.wrapper {
+   padding-bottom: 30px;
+   margin:0 auto;
+}
+
+p img {
+    float: left;
+    margin: 3px;
+    padding: 20px;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 nav ul li {
     float:none;
     display: inline-block;
@@ -32,4 +53,8 @@ nav ul li {
 a {
     text-decoration: none;
     color: black;
+}
+
+footer {
+    clear: both;
 }

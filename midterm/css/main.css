@@ -6,6 +6,7 @@
     background-size: cover;
     overflow: hidden;
     padding: 80px;
+
 }
 
 
@@ -16,14 +17,22 @@ header {
     color: aliceblue;
 }
 
-body {
-    background-color:  rgb(220, 254, 248);
+.wrapper {
+    width: 750px;
+    margin: auto;
+    background-color: rgb(224, 244, 240);
+    padding: 20px;
 }
 
-.wrapper {
+body {
+    background-color:  rgb(211, 229, 225);
+}
+
+.space {
    padding-bottom: 30px;
    margin:0 auto;
 }
+
 
 p img {
     float: left;
@@ -48,6 +57,10 @@ nav ul li {
     font-size: 25px;
     width: 25%;
     line-height: 25px;
+}
+
+.linkborder {
+    border-right: 2px solid grey;
 }
 
 a {

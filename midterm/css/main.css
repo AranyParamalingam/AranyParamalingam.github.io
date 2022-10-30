@@ -5,10 +5,7 @@
     background-position: center;
     background-size: 100%;
     overflow: hidden;
-    padding: 80px;
-
 }
-
 
 /*making header bigger and center*/
 header {
@@ -16,37 +13,56 @@ header {
     text-align: center;
     color: aliceblue;
 }
+
+
+/* making font times new roman*/
 main {
     font-family: 'Times New Roman', Times, serif;
 
 }
+
+/**/
 .navbar {
+    margin: 0px;
+    font-size: 35px;
     text-align: center;
+    float:none;
+    display: inline-block;
+    padding: 12px;
+    font-size: 25px;
+    width: 25%;
 }
 
+/*making the main and the header colomized with background color*/
 .wrapper {
     width: 750px;
+    margin-top: 0%;
     margin: auto;
     background-color: rgb(224, 244, 240);
     padding: 20px;
 }
 
+/*making the the body have a background color darker*/
 body {
     background-color:  rgb(211, 229, 225);
+    box-sizing: border-box;
+    margin: auto;
 }
 
+/*adding space between the inputs in the form*/
 .space {
    padding-bottom: 30px;
    margin:0 auto;
 }
 
-
+/*putting the image inbetween the text*/
 p img {
     float: left;
     margin: 3px;
     padding: 20px;
 }
 
+/*formatting the form to have the box around it*/
 input[type=text], textarea {
   width: 100%;
   padding: 12px 20px;
@@ -57,25 +73,17 @@ input[type=text], textarea {
   box-sizing: border-box;
 }
 
-nav ul li {
-    text-align: center;
-    float:none;
-    display: inline-block;
-    padding: 12px;
-    font-size: 25px;
-    width: 25%;
-    line-height: 25px;
-}
-
+/*adding a divider between the nav bar*/
 .linkborder {
     border-right: 2px solid grey;
 }
 
+/*making the links black*/
 a {
     text-decoration: none;
     color: black;
 }
-
+ /* formatting footer*/
 footer {
     clear: both;
 }

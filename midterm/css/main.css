@@ -1,3 +1,8 @@
+html {
+    box-sizing: border-box;
+}
+
+
 /*The image border on top*/
 .topimage {
     background-image: url(../images/lone-starfish-wide.jpg);
@@ -9,6 +14,7 @@
 
 /*making header bigger and center*/
 header {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
     color: aliceblue;
@@ -17,8 +23,16 @@ header {
 
 /* making font times new roman*/
 main {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
 
+}
+
+
+/*making the links black*/
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /*Navbar class spaces out the pages and makes it horizontal*/
@@ -78,12 +92,8 @@ input[type=text], textarea {
     border-right: 2px solid grey;
 }
 
-/*making the links black*/
-a {
-    text-decoration: none;
-    color: black;
-}
  /* formatting footer*/
 footer {
     clear: both;
+    font-family: Arial, Helvetica, sans-serif;
 }

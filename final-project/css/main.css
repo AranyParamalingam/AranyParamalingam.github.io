@@ -76,6 +76,7 @@ form.search-bar input[type=text] {
     text-decoration: none;
 }
 
+/*have the logo highlight when hovered*/
 .navbar a:hover, .logo-highlight:hover {
     background-color: #c78c06;
     color: black;
@@ -94,6 +95,7 @@ form.search-bar input[type=text] {
     height: 300px;*/
 }
 
+/*the transparent div on top of background image*/
 .intro-text {
     /*align-content: center;*/
     background-color: rgba(0, 0, 0, 50%);
@@ -108,6 +110,7 @@ form.search-bar input[type=text] {
     margin-bottom: 20px;
 }
 
+/*increasing size of button icon*/
 .intro-text button i {
     font-size: 1.25em;
 }
@@ -118,6 +121,7 @@ form.search-bar input[type=text] {
     padding-bottom: 10px;
 }
 
+/*having the image be on top of the text*/
 .about-us-img {
     display: block;
     margin-left: auto;
@@ -143,6 +147,7 @@ form.search-bar input[type=text] {
     color: white;
 }
 
+/*having the services images be on top of the text*/
 .services-img {
     display: block;
     width: 100%;
@@ -158,6 +163,7 @@ form.search-bar input[type=text] {
     padding: 60px 0 60px 0;
 }
 
+/*putting the button and text over the image*/
 .vision button {
     background-color: #222;
     border: 1px solid #c78c06;
@@ -171,12 +177,11 @@ form.search-bar input[type=text] {
 }
 
 /*teams*/
-
-
 .team-text {
     background-color: #ffe6ac;
 }
 
+/*the horixontal line between header and paragraph*/
 hr {
     height: 1px;
     background-color: #c78c06;
@@ -189,6 +194,7 @@ hr {
 
 /*contact us */
 
+/*formatting the contact form*/
 input[type=text], textarea {
     width: 100%;
     padding: 12px 20px;
@@ -208,10 +214,12 @@ input[type=text], textarea {
   }
 
   /*hours of operation*/
+  /*width of whole table*/
   .table-of-hours table {
     width: 100%;
   }
 
+  /*headers*/
   .table-of-hours th {
     background-color: #ffe6ac;
     padding: 10px;
@@ -271,29 +279,24 @@ input[type=text], textarea {
         
     }
 
-    /*nav bar*/
+    /*making nav bar horizontal*/
     .navbar {
         display: inline-block;
         flex-direction: row;
         
     }
     
-    /*Search Bar*/
+    /* placing Search Bar next to nav*/
     form.search-bar {
         display: inline-block;
     }
 
     form.search-bar input[type=text] {
         display: inline-block;
-        
-        
         width: 80%;
- 
-        
       }
     
       form.search-bar button {
-
         color: #c78c06;
         width:15%;
         display:inline-block;
@@ -313,7 +316,7 @@ input[type=text], textarea {
         color: black;
     }
 
-    /*intro*/
+    /*making the logo not highlighted in yellow when hovered*/
     .logo-highlight {
         display: inline-block;
     }
@@ -322,6 +325,7 @@ input[type=text], textarea {
         background-color:#222;
     }
 
+    /*using flex on intro, to place transparent box over image*/
     .intro-image{
         background-image:url(../images/main-banner.jpg);
         background-size: cover;
@@ -330,13 +334,9 @@ input[type=text], textarea {
         display: flex;
         /*using flexbox*/
         flex-wrap: nowrap;
-
         flex-direction: row;
-
         justify-content:center;
-
         align-items:center;
-
         margin: 0;
         padding: 100px;
     }
@@ -349,7 +349,6 @@ input[type=text], textarea {
         padding: 2rem;
         margin: 5px;
         text-align: left;
-
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: 0;
@@ -358,16 +357,12 @@ input[type=text], textarea {
     /*about us*/
     .about-us {
         display: inline-block;
-        
-        
     }
     
     .about-us-img {
         float: left;
         margin: 0px 10px 15px 20px;
         width: 40%;
-
-    
     }
 
     /*grid for services*/

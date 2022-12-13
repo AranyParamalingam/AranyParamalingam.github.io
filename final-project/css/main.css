@@ -173,7 +173,7 @@ form.search-bar input[type=text] {
 /*teams*/
 
 
-.team {
+.team-text {
     background-color: #ffe6ac;
 }
 
@@ -439,6 +439,7 @@ input[type=text], textarea {
 
     .team-img {
         display: grid;
+        width:700px;
     }
 
     .team-mobile {
@@ -453,12 +454,14 @@ input[type=text], textarea {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr, 3fr, 3fr);
         padding: 2% 7% 2% 7%;
+        justify-content: center;
     }
 
     .team {
         display: grid;
         justify-content: center;
         align-items: center;
+        margin: 0 auto;
     }
 
     .team-container h2 {

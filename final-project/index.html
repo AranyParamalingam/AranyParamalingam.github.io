@@ -8,7 +8,14 @@
 
     <!-- Icons & CSS stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
+ 
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
 
     <title>Final Project</title>
 </head>
@@ -16,37 +23,38 @@
     <!-- header with nav bar -->
     <header>
         <div>
-            <img src="images/logo.png" alt="logo image">
             <nav class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
+                <div class="logo-highlight">
+                    <img src="images/logo.png" alt="logo image">
+                    <a href="#">Home</a>
+                </div>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Team</a>
+                <a href="#">Contacts</a>
+                <!--Search Bar-->
+                <form class="search-bar" action="#" method="get">
+                    <input id="search-bar" type="text" placeholder="Search" name="search-bar">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
             </nav>
-            <!--Search Bar-->
-            <form action="#" method="get">
-                <input id="search-bar" type="text" placeholder="Search" name="search-bar">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
         </div>
     </header>
     <!--Main-->
-    <main>
+    <main class="wrapper">
         <!--Intro part of website-->
-        <div class="intro">
-            <img src="images/main-banner.jpg" alt="office lounge area">
-            <div>
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut suscipit laudantium enim incidunt id? Praesentium quas illo ullam aliquid labore tempore corrupti magni porro aut libero, rerum, impedit consequuntur aperiam?</p>
-                <button type="button">Connect with us <i class="fa fa-caret-right"></i></button>
-            </div>
+        <div class="intro-image">
+                <div class="intro-text">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut suscipit laudantium enim incidunt id? Praesentium quas illo ullam aliquid labore tempore corrupti magni porro aut libero, rerum, impedit consequuntur aperiam?</p>
+                    <button type="button">Connect with us <i class="fa fa-caret-right"></i></button>
+                </div>
         </div>
         <!--About Us Section-->
         <div class="about-us">
-            <img src="images/about-us.jpg" alt="ping pong table">
+            <div>
+                <img class="about-us-img" src="images/about-us.jpg" alt="ping pong table">
+            </div>
             <h2>About Us</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis veniam quibusdam aperiam quis incidunt. Maiores quidem odit ducimus laudantium voluptas nostrum dolorem error, deleniti totam odio, saepe neque alias! Aliquam?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias quibusdam ducimus rem obcaecati? Cupiditate eum iste quam voluptatem optio. Unde eum reiciendis expedita doloribus nostrum minus quas itaque est.</p>
@@ -57,7 +65,7 @@
             <h2>Our Services</h2>
             <!--Digital Plans Section-->
             <div class="services">
-                <img src="images/digital.jpg" alt="person looking at phone and laptop">
+                <img class="services-img" src="images/digital.jpg" alt="person looking at phone and laptop">
 
                 <h3>Digital Transformation</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam est minima reiciendis praesentium a debitis magnam laboriosam voluptates alias obcaecati nobis quidem laborum dolorum voluptas deleniti incidunt, nostrum corrupti!</p>
@@ -65,7 +73,7 @@
             </div>
             <!--Marketing Section-->
             <div class="services">
-                <img src="images/marketing.jpg" alt="laptop showing statistics">
+                <img class="services-img" src="images/marketing.jpg" alt="laptop showing statistics">
 
                 <h3>Marketing</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore itaque commodi recusandae illum aspernatur! Eaque quasi vero corrupti, voluptas magni, placeat aliquid rerum, illo deserunt ipsam numquam. Dignissimos, amet odio!</p>
@@ -73,7 +81,7 @@
             </div>
             <!--Video Section-->
             <div class="services">
-                <img src="images/video.jpg" alt="phone showing youtube">
+                <img class="services-img" src="images/video.jpg" alt="phone showing youtube">
 
                 <h3>Video Production</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore itaque commodi recusandae illum aspernatur! Eaque quasi vero corrupti, voluptas magni, placeat aliquid rerum, illo deserunt ipsam numquam. Dignissimos, amet odio!</p>
@@ -81,7 +89,7 @@
             </div>
             <!--Web Section-->
             <div class="services">
-                <img src="images/web.jpg" alt="phone on grid paper">
+                <img class="services-img" src="images/web.jpg" alt="phone on grid paper">
 
                 <h3>Web Development</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore itaque commodi recusandae illum aspernatur! Eaque quasi vero corrupti, voluptas magni, placeat aliquid rerum, illo deserunt ipsam numquam. Dignissimos, amet odio!</p>
@@ -89,7 +97,7 @@
             </div>
             <!-- Print Section-->
             <div class="services">
-                <img src="images/print.jpg" alt="newspaper boxes">
+                <img class="services-img" src="images/print.jpg" alt="newspaper boxes">
 
                 <h3>Print</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore itaque commodi recusandae illum aspernatur! Eaque quasi vero corrupti, voluptas magni, placeat aliquid rerum, illo deserunt ipsam numquam. Dignissimos, amet odio!</p>
@@ -99,8 +107,7 @@
         
         <!--Vision Section-->
         <div class="vision">
-            <img src="images/vision.jpg" alt="paper boats">
-            <div>
+            <div class="vision-text">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut suscipit laudantium enim incidunt id? Praesentium quas illo ullam aliquid labore tempore corrupti magni porro aut libero, rerum, impedit consequuntur aperiam?</p>
                 <button type="button">Learn More <i class="fa fa-caret-right"></i></button>
@@ -112,7 +119,7 @@
             <h2>Our Team</h2>
             <!--Introducing Our CEO-->
             <div class="team">
-                <img src="images/john.jpg" alt="man with one eye brow raised">
+                <img class="team-img" src="images/john.jpg" alt="man with one eye brow raised">
                 <h3>John Doe</h3>
                 <p>CEO and Co-owner</p>
                 <hr>
@@ -120,7 +127,7 @@
             </div>
             <!--Introducing Our CFO-->
             <div class="team">
-                <img src="images/bob.jpg" alt="man with glasses">
+                <img class="team-img" src="images/bob.jpg" alt="man with glasses">
                 <h3>Bob Rite</h3>
                 <p>CFO and Co-owner</p>
                 <hr>
@@ -147,7 +154,7 @@
                             <textarea id="message"></textarea>
                         </div>
                         <div>
-                            <input type="submit" value="Send">
+                            <input class="contact-button" type="submit" value="Send">
                         </div>
                 </form>
             </article>
@@ -155,8 +162,8 @@
 
         <!--Table of Hours of operation-->
         <div class="table-of-hours">
+            <h2>Hours of operation</h2>
             <table>
-                <caption>Hours of operation</caption>
                 <thead>
                     <tr>
                       <th>Days</th>

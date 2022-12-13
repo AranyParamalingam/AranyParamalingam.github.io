@@ -1,0 +1,249 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    margin: 0px 0px 0px 0px;
+}
+
+/*text*/
+
+h1, h2, h3, p, form {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+/*Header & img*/
+header {
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+    font-size: 1.33em;
+}
+
+header img {
+    display: block;
+}
+
+/*nav bar*/
+.navbar {
+    width: 100%;
+    padding: 0px;
+}
+
+/*Search Bar*/
+form.search-bar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+    margin-right: 0%;
+  }
+
+  form.search-bar button {
+    width: 10%;
+    padding: 10px;
+    color: #c78c06;
+    background-color: transparent;
+    font-size: 17px;
+    border: 1px solid #c78c06;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+/*navbar hovering and untouched*/
+.navbar a {
+    color: #c78c06;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .logo-highlight:hover {
+    background-color: #c78c06;
+    color: black;
+}
+
+/*main intro*/
+
+.intro-image{
+    background-image:url(../images/main-banner.jpg);
+    background-size: 100%;
+    padding: 60px 0 60px 0;
+    /*background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding: 0%;
+    height: 300px;*/
+}
+
+.intro-text {
+    /*align-content: center;*/
+    background-color: rgba(0, 0, 0, 50%);
+    color: white;
+}
+
+.intro-text button {
+    background-color: #c78c06;
+    border: 1px solid #c78c06;
+    font-size: 1.25em;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-text button i {
+    font-size: 1.25em;
+}
+
+/*about us*/
+.about-us {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+}
+
+.about-us-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-top: 10px;
+
+}
+
+/*services*/
+
+.services {
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+}
+
+.services button {
+    background-color: #222;
+    border: 1px solid #222;
+    font-size: 1.15em;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.services-img {
+    display: block;
+    width: 100%;
+}
+
+/*vision*/
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 60px 0 60px 0;
+}
+
+.vision button {
+    background-color: #222;
+    border: 1px solid #c78c06;
+    font-size: 1.15em;
+    padding: 10px;
+    color: white;
+}
+
+.vision-text {
+    color: white;
+}
+
+/*teams*/
+
+.team {
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+hr {
+    height: 1px;
+    background-color: #c78c06;
+}
+
+.team-img {
+    display: block;
+    width: 100%;
+}
+
+/*contact us */
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .contact-button {
+    background-color: #222;
+    border: 1px solid #c78c06;
+    font-size: 1.15em;
+    padding: 10px;
+    color:#c78c06;
+  }
+
+  /*hours of operation*/
+  .table-of-hours table {
+    width: 100%;
+  }
+
+  .table-of-hours th {
+    background-color: #ffe6ac;
+    padding: 10px;
+  }
+
+  .table-of-hours td {
+    padding: 10px;
+  }
+
+  .table-of-hours table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  /*location*/
+  .location iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-top: 10px;
+  }
+
+  /*footer*/
+
+  footer, footer a{
+    background-color: #222;
+    color: #c78c06;
+  }
+
+  /*desktop version*/
+  @media screen and (min-width: 760px){
+
+    
+}
